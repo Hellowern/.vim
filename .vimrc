@@ -148,7 +148,7 @@ let Tlist_Show_One_File = 1 "只显示当前文件的taglist，默认是显示�
 let Tlist_Exit_OnlyWindow = 1 "如果taglist是最后一个窗口，则退出vim
 let Tlist_Use_Right_Window = 1 "在右侧窗口中显示taglist
 let Tlist_GainFocus_On_ToggleOpen = 1 "打开taglist时，光标保留在taglist窗口
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags' "设置ctags命令的位置
+let Tlist_Ctags_Cmd='/usr/bin/ctags' "设置ctags命令的位置
 "let Tlist_Auto_Open = 0 "每次vim运行时自动打开taglist
 nnoremap <leader>tl : Tlist<CR> 
 "}
